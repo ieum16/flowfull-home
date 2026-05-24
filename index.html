@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moment Route | 여행자 체험 클래스</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="상단 메뉴">
+      <a class="brand" href="#top" aria-label="Moment Route 홈">
+        <span class="brand-mark"></span>
+        Moment Route
+      </a>
+      <nav class="nav-links" aria-label="주요 메뉴">
+        <a href="#programs">프로그램</a>
+        <a href="#reviews">후기</a>
+        <a href="#booking">예약</a>
+      </nav>
+      <a class="header-cta" href="#contact">문의하기</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-photo" aria-hidden="true">
+          <div class="photo-frame photo-main"></div>
+          <div class="photo-frame photo-side"></div>
+          <div class="hero-note">
+            <strong>이번 주 잔여 6석</strong>
+            <span>커플·여행자 소규모 클래스</span>
+          </div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Seoul local experience studio</p>
+          <h1 id="hero-title">여행의 하루를 오래 남는 장면으로 만듭니다</h1>
+          <p class="hero-text">
+            Moment Route는 일반인, 커플, 여행자를 위한 로컬 체험 클래스입니다.
+            짧은 여행 일정에도 부담 없이 예약하고, 직접 만들고, 바로 가져갈 수 있는
+            프라이빗 프로그램을 운영합니다.
+          </p>
+          <div class="hero-actions" aria-label="주요 행동">
+            <a class="button primary" href="#booking">예약하기</a>
+            <a class="button secondary" href="#contact">문의하기</a>
+          </div>
+          <dl class="hero-stats" aria-label="서비스 성과">
+            <div>
+              <dt>4.9</dt>
+              <dd>평균 만족도</dd>
+            </div>
+            <div>
+              <dt>90분</dt>
+              <dd>대표 클래스</dd>
+            </div>
+            <div>
+              <dt>1-6명</dt>
+              <dd>소규모 진행</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section intro" aria-labelledby="intro-title">
+        <div>
+          <p class="eyebrow">Brand promise</p>
+          <h2 id="intro-title">문의부터 구매까지 망설임이 적은 체험 흐름</h2>
+        </div>
+        <p>
+          처음 방문한 사람도 프로그램 차이를 빠르게 이해하고, 일정과 가격을 확인한 뒤
+          예약 또는 문의로 이어지도록 페이지를 구성했습니다.
+        </p>
+      </section>
+
+      <section class="programs" id="programs" aria-labelledby="programs-title">
+        <div class="section-heading">
+          <p class="eyebrow">Programs</p>
+          <h2 id="programs-title">목적에 맞게 고르는 대표 상품</h2>
+        </div>
+        <div class="program-grid">
+          <article class="program-card">
+            <div class="program-image image-couple" aria-hidden="true"></div>
+            <div class="program-body">
+              <span class="tag">커플 추천</span>
+              <h3>둘만의 서울 기록 클래스</h3>
+              <p>서로의 취향을 담은 오브제를 만들고 사진 촬영까지 함께 진행합니다.</p>
+              <div class="program-meta">
+                <span>90분</span>
+                <strong>58,000원</strong>
+              </div>
+            </div>
+          </article>
+          <article class="program-card">
+            <div class="program-image image-travel" aria-hidden="true"></div>
+            <div class="program-body">
+              <span class="tag">여행자 인기</span>
+              <h3>로컬 무드 원데이 체험</h3>
+              <p>짧은 일정 안에서 서울의 분위기를 직접 만들고 가져가는 체험입니다.</p>
+              <div class="program-meta">
+                <span>70분</span>
+                <strong>42,000원</strong>
+              </div>
+            </div>
+          </article>
+          <article class="program-card">
+            <div class="program-image image-group" aria-hidden="true"></div>
+            <div class="program-body">
+              <span class="tag">클래스 참석</span>
+              <h3>주말 소규모 워크숍</h3>
+              <p>처음 참여하는 일반인도 편하게 완성할 수 있는 단계별 클래스입니다.</p>
+              <div class="program-meta">
+                <span>120분</span>
+                <strong>66,000원</strong>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="split-section" aria-labelledby="why-title">
+        <div class="story-panel">
+          <p class="eyebrow">Why us</p>
+          <h2 id="why-title">예약 전에 필요한 정보만 선명하게 보여줍니다</h2>
+          <p>
+            대상, 가격, 소요 시간, 진행 방식, 문의 버튼을 한 화면 안에서 확인할 수 있어
+            방문자가 다음 행동을 바로 선택할 수 있습니다.
+          </p>
+          <ul class="check-list">
+            <li>초보자도 따라오는 단계별 진행</li>
+            <li>커플, 친구, 혼자 여행자 모두 참여 가능</li>
+            <li>완성 작품 포장과 현장 사진 제공</li>
+          </ul>
+        </div>
+        <div class="schedule-panel" id="booking" aria-label="예약 일정">
+          <div class="panel-top">
+            <h3>이번 주 예약 가능</h3>
+            <a href="#contact">전체 문의</a>
+          </div>
+          <div class="schedule-list">
+            <button type="button" data-slot="토요일 14:00">
+              <span>토요일 14:00</span>
+              <strong>2석 남음</strong>
+            </button>
+            <button type="button" data-slot="일요일 11:00">
+              <span>일요일 11:00</span>
+              <strong>4석 남음</strong>
+            </button>
+            <button type="button" data-slot="일요일 16:30">
+              <span>일요일 16:30</span>
+              <strong>마감 임박</strong>
+            </button>
+          </div>
+          <a class="button primary full" href="#contact">선택 일정 문의하기</a>
+        </div>
+      </section>
+
+      <section class="reviews" id="reviews" aria-labelledby="reviews-title">
+        <div class="section-heading">
+          <p class="eyebrow">Reviews</p>
+          <h2 id="reviews-title">방문자가 남긴 실제 선택 이유</h2>
+        </div>
+        <div class="review-grid">
+          <blockquote>
+            <p>여행 마지막 날 예약했는데 결과물이 예뻐서 선물까지 해결했어요.</p>
+            <cite>도쿄에서 온 여행자</cite>
+          </blockquote>
+          <blockquote>
+            <p>커플 사진만 찍는 데이트보다 훨씬 자연스럽고 기억에 남았습니다.</p>
+            <cite>서울 주말 데이트</cite>
+          </blockquote>
+          <blockquote>
+            <p>문의 답변이 빨라서 일정 조율이 쉬웠고 초보자도 어렵지 않았어요.</p>
+            <cite>첫 원데이 클래스 참여자</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">문의, 예약, 구매를 한 번에 시작하세요</h2>
+          <p>
+            원하는 날짜와 인원, 관심 프로그램을 남겨주시면 가장 빠른 가능 시간과 결제
+            안내를 보내드립니다.
+          </p>
+        </div>
+        <form class="contact-form">
+          <label>
+            이름
+            <input type="text" name="name" placeholder="홍길동" required />
+          </label>
+          <label>
+            연락처
+            <input type="tel" name="phone" placeholder="010-0000-0000" required />
+          </label>
+          <label>
+            관심 프로그램
+            <select name="program">
+              <option>둘만의 서울 기록 클래스</option>
+              <option>로컬 무드 원데이 체험</option>
+              <option>주말 소규모 워크숍</option>
+            </select>
+          </label>
+          <label>
+            문의 내용
+            <textarea name="message" rows="4" placeholder="희망 날짜와 인원을 적어주세요"></textarea>
+          </label>
+          <button class="button primary full" type="submit">문의 보내기</button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Moment Route</span>
+      <span>문의 010-1234-5678</span>
+      <span>서울시 종로구 로컬스튜디오 2F</span>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
